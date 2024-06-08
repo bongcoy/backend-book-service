@@ -27,6 +27,6 @@ export class MembersService {
   }
 
   remove(code: string) {
-    return `This action removes a #${code} member`;
+    return this.prisma.member.delete({ where: { code } });
   }
 }
