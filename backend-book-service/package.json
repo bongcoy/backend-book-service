@@ -1,18 +1,12 @@
 {
   "name": "backend-book-service",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
+  "version": "1.0.0",
+  "description": "- [About](#about)\r - [Getting Started](#getting_started)\r - [Usage](#usage)\r - [Contributing](../CONTRIBUTING.md)",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "^4.19.2",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "^2.0.4",
-    "sequelize": "^6.37.3"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
