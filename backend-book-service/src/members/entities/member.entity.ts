@@ -1,1 +1,5 @@
-export class Member {}
+export class Member {
+  code: string;
+  name: string;
+  penaltyEnd: Date;
+}
