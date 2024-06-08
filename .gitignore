@@ -131,3 +131,6 @@ dist
 
 # AWS
 *.pem
+
+# Config files
+*config.json
